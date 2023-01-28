@@ -93,15 +93,22 @@ $system->renderStaticPageHeader($layout);
 
           <h2>Character Rank, Stat caps and Requirements</h2>
           <p><b>Academy student</b>- Starting rank up to level 10. Stat cap of 1000</p>
-          <p><b>Genin</b> - Must be a lvl 10 AS plus required exp to take the exam. Stat cap of 5000</p>
+          <p><b>Genin</b> - Must be a lvl 10 AS plus required exp to take the exam. Stat cap of 7500
+            Genin lvls range from 11 to 25</p>
 
           <p>
             In order to pass the exam, you must buy and learn <b>Basic Replacement</b>, <b>Clone Combo</b>, and <b>Transformation Trickery</b> from the shop and perform the hand signs.<br>
           </p>
           <p>
-            <b>Chuunin</b> - Must be a lvl 20 Genin plus required exp to take the exam. Stat cap of 25000
+            <b>Chuunin</b> - Must be a lvl 20 Genin plus required exp to take the exam. Stat cap of 50000
             In order to pass the exam, the user must pass a basic test along with undergoing a series of battles.
+             Chuunin lvls range from 26 to 50
+              
           </p>
+          <p>
+              <b>Jounin</b> - Must be a Lvl 50 Chuunin. Stat cap of 250000.
+              You gain another jutsu base slot for a total of 5 ,not including seals.
+                Jounin lvls range from 51 to 100 </p>
 
               <br/>
 
@@ -164,24 +171,29 @@ $system->renderStaticPageHeader($layout);
             <div>Longer journal (1000 -> 2000 characters)</div>
             <div>Larger journal images (300x200 -> 500x500)</div>
             <div>Longer chat posts (350 -> 450 characters)</div>
-            Longer PMs (1000 -> 1500 characters)rs)</div>
+            Longer PMs (1000 -> 1500 characters)</div>
           </div>
+        
+           <div>
+               <h3> 
+                   Four Dragon Seal
+               </h3>
+               <h4> 
+                   15 Ancient Kunai / 30 days 
+               </h4>
 
+          <div>  All benefits of Twin Sparrow Seal </div>
+         <div>   +20% regen rate </div>
+          <div>  +1 jutsu equip slots </div>
+          <div>  +1 weapon equip slots </div>
+         <div>   +1 armor equip slots </div>
+         <div>   Longer logout timer (120 -> 240 minutes) </div>
+         <div>   Longer journal (1000 -> 2500 characters) </div>
+          <div>  Enhanced long trainings (1.5x length, 2x gains) </div>
+          <div>  Enhanced extended trainings (1.5x length, 2x gains) </div>
+        </div>
           <br>
-          <!--Unedited-->
-
-          Twin Sparrow Seal                                                                                   Four Dragon Seal
-          5 Ancient Kunai / 30 days			                                                                 15 Ancient Kunai / 30 days
-          +10% regen rate                                                                               All benefits of Twin Sparrow
-          Blue/Pink username color in chat                                                                    +20% regen rate
-          Larger avatar (125x125 -> 175x175)                                                                 +1 jutsu equip slot
-          Longer logout timer (60 -> 90 minutes)                                                            +1 weapon equip slot
-          Larger inbox (50 -> 75 messages)                                                                   +1 armor equip slot
-          Longer journal (1000 -> 2000 characters)                                                Enhanced long trainings (1.5x length, 2x gains)
-          Larger journal images (300x200 -> 500x500)                                           Enhanced extended trainings (1.5x length, 2.25x gains)
-          Longer chat posts (350 -> 450 characters)
-          Longer PMs (1000 -> 1500 characters)
-
+         
           <!--GOJO END MANUAL-->
 
         </div>
